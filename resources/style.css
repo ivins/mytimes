@@ -49,7 +49,6 @@
 }
 
 .item {
-  display: flex;
   border: 1px solid black;
 }
 
@@ -71,12 +70,12 @@
 }
 
 .article2 {
-  display: flex;
+  display: block;
   border: 1px solid black;
 }
 
 .article3 {
-  display: flex;
+  display: block;
   border: 1px solid black;
 }
 
@@ -94,4 +93,8 @@
   width: 240px;
   flex-direction: column;
   margin-right: 30px;
+}
+
+.img {
+  border: 1px solid black;
 }
