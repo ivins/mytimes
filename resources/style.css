@@ -1,6 +1,10 @@
+body {
+  background-color: white;
+  margin-top: 0px;
+}
+
 .header {
   display: flex;
-  border: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -34,6 +38,7 @@
   display: flex;
   align-items: center;
   margin-left: 20px;
+  border: 1px solid black;
 }
 
 .logo span {
@@ -45,6 +50,7 @@
   border: 1px solid black;
   top: 90px;
   position: relative;
+  justify-content: center;
 
 }
 
@@ -65,16 +71,11 @@
   border: 1px solid black;
 }
 
-.article1 {
+.article {
   border: 1px solid black;
 }
 
-.article2 {
-  display: block;
-  border: 1px solid black;
-}
-
-.article3 {
+.article span {
   display: block;
   border: 1px solid black;
 }
